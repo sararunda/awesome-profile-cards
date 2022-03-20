@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: solid lightgrey 1px;
+  border: solid $white-two 1px;
   position: fixed;
   bottom: 0px;
   &__title {
@@ -27,5 +27,8 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 40px 10px 41px;
+    &__logo img {
+      margin-top: 10px;
+    }
   }
 }
