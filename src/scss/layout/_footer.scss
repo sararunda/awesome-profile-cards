@@ -10,7 +10,8 @@
   bottom: 0px;
   &__title {
     font-family: $open;
-    color: $grey;
+    font-weight: 400px;
+    color: $white-two;
     font-size: 14px;
     padding: 18px 0 12px 0;
   }
@@ -22,7 +23,9 @@
 }
 @media (min-width: 768px) {
   .footer {
+    height: 60px;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 40px 10px 41px;
   }
 }
