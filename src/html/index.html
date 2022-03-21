@@ -10,11 +10,48 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Awesome profile cards</title>
   </head>
   <body>
-    <div></div>
+    <section class="landing">
+      <div class="landing__content">
+        <img
+          class="landing__content--logo"
+          src="./assets/images/tarjetas-molonas.png"
+          alt=""
+        />
+        <h1 class="landing__title">Crea tu tarjeta de visita</h1>
+        <p class="landing__text">
+          Crea mejores contactos profesionales de forma fácil y cómoda
+        </p>
+        <ul class="landing__rectangle">
+          <li class="landing__rectangle--item">
+            <i class="fa fa-object-ungroup"></i>
+            <span>Diseña</span>
+          </li>
+
+          <li class="landing__rectangle--item">
+            <i class="fa-light fa-keyboard"></i>
+            <span>Rellena</span>
+          </li>
+
+          <li class="landing__rectangle--item">
+            <i class="fa fa-share-alt"></i>
+            <span>Comparte</span>
+          </li>
+        </ul>
+
+        <button class="button"><a href="./create.html">comenzar</a></button>
+      </div>
+    </section>
+
     <include src="./partials/footer.html"></include>
 
     <script src="./assets/js/main.js"></script>

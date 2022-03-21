@@ -1,0 +1,68 @@
+.landing {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: $white-four;
+  &__content {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  &__title {
+    font-family: $merri;
+    color: $orange;
+    padding-top: 35.4px;
+    font-size: 20px;
+  }
+  &__text {
+    font-family: $open;
+    color: #114e4e;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 17.8px;
+  }
+  &__rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    height: 73.8px;
+    width: 100%;
+    border: solid $orange 1px;
+  }
+  &__rectangle li {
+    display: flex;
+    flex-direction: column;
+    font-family: $open;
+    font-size: 12.8px;
+    color: $gris-oscuro;
+  }
+  &__rectangle i {
+    font-family: "Font Awesome 5 Free";
+    font-size: 22.4px;
+    color: $orange;
+  }
+}
+
+.button {
+  margin-top: 100px;
+  width: 129px;
+  height: 42px;
+  border-radius: 21px;
+  border: none;
+  background-color: $blue;
+  font-family: $open;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.button a {
+  color: $white-two;
+  text-decoration: none;
+}
+
+.landing img {
+  width: 250px;
+  height: 63px;
+}
