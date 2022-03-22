@@ -1,0 +1,53 @@
+.create-bottom {
+  width: 210px;
+  height: 50px;
+  background-color: #e17334;
+  font-size: 17px;
+  text-align: center;
+  border-style: none;
+  border-radius: 12px;
+  font-family: $open;
+}
+
+.create-bottom {
+  color: #ffffff;
+  display: flex;
+}
+
+.text-share {
+  font-size: 18px;
+  color: #54585a;
+  font-family: OpenSans-SemiBold;
+}
+.url-share {
+  font-family: OpenSans;
+  font-size: 12px;
+  font-weight: 600;
+  color: #e17334;
+}
+.share-section {
+  text-align: center;
+  width: 329px;
+  border-top: #d8d8d8 solid 1px;
+  border-bottom: #d8d8d8 solid 1px;
+}
+.share-botton {
+  display: flex;
+  width: 181px;
+  height: 31px;
+  background: #00a0f5;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-style: none;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+}
+.fa-brand {
+  color: #ffffff;
+}
+.text-twitter {
+  font-size: 14px;
+  color: #ffffff;
+  padding-left: 5px;
+}
