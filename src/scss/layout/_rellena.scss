@@ -1,4 +1,14 @@
 $font-14: 14px;
+$gunmetal: #54585a;
+
+.filled {
+  display: flex;
+  font-family: $open;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $gunmetal;
+}
 
 .form2 {
   font-family: $open;
