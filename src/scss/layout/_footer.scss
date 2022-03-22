@@ -5,8 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-top: solid $white-two 1px;
-  background-color: $white;
+  border: solid 1px var($white-two);
+  background-color: var($white);
   &__title {
     font-family: $open;
     font-weight: 400px;
