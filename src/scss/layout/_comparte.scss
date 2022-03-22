@@ -1,41 +1,51 @@
-.create-bottom {
+.form3 {
+  width: 100vw;
+  height: 500px;
+}
+.share-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.create-botton {
   width: 210px;
   height: 50px;
-  background-color: #e17334;
+  background-color: $orange;
   font-size: 17px;
   text-align: center;
   border-style: none;
   border-radius: 12px;
   font-family: $open;
-}
-
-.create-bottom {
-  color: #ffffff;
+  color: $white;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-create {
+  padding-left: 8px;
 }
 
 .text-share {
   font-size: 18px;
-  color: #54585a;
-  font-family: OpenSans-SemiBold;
+  color: $gunmetal;
+  font-family: $open;
 }
 .url-share {
-  font-family: OpenSans;
+  font-family: $open;
   font-size: 12px;
   font-weight: 600;
-  color: #e17334;
+  color: $orange;
 }
 .share-section {
   text-align: center;
   width: 329px;
-  border-top: #d8d8d8 solid 1px;
-  border-bottom: #d8d8d8 solid 1px;
+  border-top: $white-two solid 1px;
+  border-bottom: $white-two solid 1px;
 }
 .share-botton {
   display: flex;
   width: 181px;
   height: 31px;
-  background: #00a0f5;
+  background: $light-blue;
   border-radius: 10px;
   align-items: center;
   justify-content: center;
@@ -44,10 +54,10 @@
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
 }
 .fa-brand {
-  color: #ffffff;
+  color: $white;
 }
 .text-twitter {
   font-size: 14px;
-  color: #ffffff;
+  color: $white;
   padding-left: 5px;
 }
