@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   text-align: center;
   background-color: $white-four;
   &__content {
@@ -20,28 +21,29 @@
     color: #114e4e;
     font-weight: 600;
     font-size: 15px;
-    margin-bottom: 17.8px;
   }
   &__rectangle {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    list-style: none;
-    height: 73.8px;
-    width: 100%;
     border: solid $orange 1px;
+    border-radius: 4px;
+    width: 268px;
+    height: 74px;
+    margin-top: 17.8px;
+    margin-left: 25px;
   }
   &__rectangle li {
     display: flex;
     flex-direction: column;
     font-family: $open;
     font-size: 12.8px;
-    color: $gris-oscuro;
+    color: $gunmetal;
   }
-  &__rectangle i {
-    font-family: "Font Awesome 5 Free";
+  &__rectangle li i {
     font-size: 22.4px;
+    font-style: normal;
     color: $orange;
   }
 }
@@ -61,8 +63,20 @@
   color: $white-two;
   text-decoration: none;
 }
-
 .landing img {
   width: 250px;
   height: 63px;
+}
+@media (min-width: 768px) {
+  .rectangle {
+    width: 325px;
+    height: 86px;
+  }
+  .landing img {
+    width: 419px;
+    height: 105px;
+  }
+  .title {
+    font-size: 24px;
+  }
 }
