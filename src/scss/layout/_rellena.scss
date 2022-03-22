@@ -12,7 +12,7 @@ $font-14: 14px;
   font-family: $open;
   margin-top: 7px;
   color: #c5c5c5;
-  border: solid 2px $hospital-green;
+  border: solid 1px $hospital-green;
   outline-color: $orange;
   padding-left: 9px;
 }
@@ -23,14 +23,12 @@ $font-14: 14px;
   margin-top: 20px;
 }
 
-.form2-button {
+.form2-submit {
   width: 140px;
   height: 30px;
   margin-top: 10px;
   background-color: $orange;
+  color: white;
+  font-size: 14px;
   border-style: none;
-}
-.button-text {
-  color: $white;
-  font-size: $font-14;
 }
