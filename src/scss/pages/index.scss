@@ -73,10 +73,26 @@
     height: 86px;
   }
   .landing img {
-    width: 419px;
+    width: 417px;
     height: 105px;
   }
-  .title {
-    font-size: 24px;
+  .landing {
+    &__title {
+      font-size: 24px;
+    }
+    &__text {
+      font-size: 16px;
+      width: 331px;
+      height: 48px;
+      margin-left: 40px;
+      margin-bottom: 27px;
+    }
+
+    &__rectangle {
+      width: 325px;
+      height: 86px;
+      margin-left: 45px;
+      font-size: 50px;
+    }
   }
 }
