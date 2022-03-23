@@ -9,11 +9,18 @@
     &__reset {
       width: 75px;
       padding: 7px;
+      margin-bottom: 20px;
       margin-left: 0;
+      font-family: $open;
+      font-size: 12px;
+      text-transform: uppercase;
+      border: solid 1px $white;
+      border-radius: 15px;
+      color: $gunmetal;
+      background-color: transparent;
     }
     &__text {
       background-color: $white;
-      width: 240px;
       padding: 20px 0 10px 20px;
       &--name {
         font-family: $montse;
@@ -30,11 +37,13 @@
     &__cat {
       height: 240px;
       width: 240px;
+      background-image: url(../images/gatito.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
     }
     &__rrss {
       background-color: $white;
       margin-top: 0;
-      width: 240px;
       padding: 10px 0 10px 20px;
       &__link {
         padding: 5px;
@@ -42,6 +51,9 @@
         border-radius: 16px;
         margin-right: 10px;
         color: $dark-blue;
+        font-size: 18px;
+        width: 30px;
+        height: 30px;
       }
     }
   }
