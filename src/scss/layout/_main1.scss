@@ -8,7 +8,7 @@
     align-items: center;
     &__reset {
       width: 75px;
-      padding: 7px;
+      padding: 6px;
       margin-bottom: 20px;
       margin-left: 0;
       font-family: $open;
@@ -18,6 +18,9 @@
       border-radius: 15px;
       color: $gunmetal;
       background-color: transparent;
+      .fa-solid {
+        padding-right: 5px;
+      }
     }
     &__text {
       background-color: $white;
@@ -45,15 +48,16 @@
       background-color: $white;
       margin-top: 0;
       padding: 10px 0 10px 20px;
+      display: flex;
+      text-align: center;
       &__link {
         padding: 5px;
         border: solid 2px $hospital-green;
         border-radius: 16px;
         margin-right: 10px;
         color: $dark-blue;
-        font-size: 18px;
+        font-size: 15px;
         width: 30px;
-        height: 30px;
       }
     }
   }
