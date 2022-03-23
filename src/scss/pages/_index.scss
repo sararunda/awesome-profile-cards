@@ -1,124 +1,52 @@
 .landing {
   height: 100vh;
   width: 100%;
+  background-color: $white-four;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: $white-four;
-  &__content {
-    padding-left: 35px;
-    padding-right: 35px;
+  &__logo {
+    width: 250px;
+    height: 63px;
+  }
+  &__logo img {
+    width: 250px;
+    height: 63px;
   }
   &__title {
     font-family: $merri;
-    color: $orange;
-    padding-top: 35.4px;
     font-size: 20px;
+    color: $orange;
   }
   &__text {
+    width: 264.8px;
+    font-size: 13px;
     font-family: $open;
-    color: #114e4e;
-    font-weight: 600;
-    font-size: 15px;
+    color: $dark-blue;
   }
   &__rectangle {
+    border-radius: 21%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border: solid $orange 1px;
-    border-radius: 4px;
-    width: 268px;
-    height: 74px;
-    margin-top: 17.8px;
-    margin-left: 25px;
   }
-  &__rectangle li {
-    display: flex;
-    flex-direction: column;
-    font-family: $open;
-    font-size: 12.8px;
-    color: $gunmetal;
-  }
-  &__rectangle li i {
-    font-size: 22.4px;
-    font-style: normal;
-    color: $orange;
-  }
-  .words {
-    font-size: 13px;
+  &__button {
+    background-color: $dark-blue;
+    border-radius: 21px;
+    border: none;
+    width: 129px;
+    height: 42px;
+    margin-top: 38.6px;
+
+    &--link {
+      text-decoration: none;
+      color: $white-four;
+      text-transform: uppercase;
+      padding: 10px 20px 10px 20px;
+    }
   }
 }
 
-.button {
-  margin-top: 100px;
-  width: 129px;
-  height: 42px;
-  border-radius: 21px;
-  border: none;
-  background-color: $blue;
-  font-family: $open;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.button a {
-  color: $white-two;
-  text-decoration: none;
-}
-.landing img {
-  width: 250px;
-  height: 63px;
-}
-@media all and (min-width: 768px) {
-  .rectangle {
-    width: 325px;
-    height: 86px;
-  }
-  .landing img {
-    width: 417px;
-    height: 105px;
-  }
-  .landing {
-    &__title {
-      font-size: 24px;
-    }
-    &__text {
-      font-size: 16px;
-      width: 331px;
-      height: 48px;
-      margin-left: 40px;
-      margin-bottom: 27px;
-    }
-
-    &__rectangle {
-      width: 325px;
-      height: 86px;
-      margin-left: 45px;
-      font-size: 50px;
-    }
-  }
-  .landing__rectangle--item {
-    justify-content: center;
-    align-items: center;
-    width: 75px;
-    height: 75px;
-  }
-  .landing__rectangle--item i {
-    width: 32px;
-    height: 29px;
-  }
-
-  .button {
-    margin-top: 186px;
-  }
-  .words {
-    font-size: 16px;
-  }
-}
-@media all and (min-width: 1200px) {
-  .landing {
-    display: none;
-  }
-}
+//@media all and (min-width: 768px) {}
+//@media all and (min-width: 1200px) {}
