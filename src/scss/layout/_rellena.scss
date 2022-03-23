@@ -8,6 +8,17 @@ $gunmetal: #54585a;
   font-weight: 600;
   text-transform: uppercase;
   color: $gunmetal;
+
+  &__text {
+    width: 98%;
+  }
+}
+
+.fa-keyboard {
+  color: $orange;
+  padding-right: 10px;
+  width: 24px;
+  height: 24px;
 }
 
 .form2 {
@@ -41,4 +52,16 @@ $gunmetal: #54585a;
   color: white;
   font-size: 14px;
   border-style: none;
+}
+
+.container {
+  display: flex;
+  align-items: baseline;
+}
+
+.div {
+  width: 30px;
+  height: 30px;
+  border: $hospital-green 1px solid;
+  margin-left: 20px;
 }
