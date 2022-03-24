@@ -1,15 +1,18 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-<fieldset action="/signup" method="post" class="form2">
-  <div class="filled">
+<div class="filled js-desplegable">
    <i class="fa-solid fa-keyboard"></i>
    <legend class="filled__text">Rellena</legend>
-   <i class="fa-solid fa-angle-up"></i>
+   <i class="fa-solid fa-angle-up  "></i>
+   <i class="fa-solid collapsed fa-angle-down "></i>
   </div>
 
+<fieldset action="/signup" method="post"  class="form2 js-fieldset collapsed" >
 
-  <label class="label">Nombre completo</label>
+
+
+  <label class="label1">Nombre completo</label>
   <input
     type="text"
     class="input"
@@ -70,3 +73,6 @@
     />
   </p>
 </fieldset>
+
+<script src="./assets/js/_rellena.js" ></script>
+
