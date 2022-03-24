@@ -1,6 +1,13 @@
 .main1 {
   background: linear-gradient(to bottom, $silver, $pale-grey);
   padding: 38px 35px 40px 35px;
+  @media all and(min-width:768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   &__container {
     align-items: center;
     display: flex;
