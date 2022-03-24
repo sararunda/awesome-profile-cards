@@ -41,11 +41,17 @@
     &--item {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      margin: 0;
+      align-items: center;
       padding: 15px 20px 10px 20px;
     }
     &--item i {
+      width: 41px;
+      height: 23px;
       color: $orange;
       font-size: 22.4px;
+      margin: 0 0 10px 0;
     }
     &--item span {
       font-size: 12.8px;
