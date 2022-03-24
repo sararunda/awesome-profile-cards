@@ -15,6 +15,7 @@ function hiddeFieldset() {
     form2.classList.add('collapsed')
   } }
 
+
 function changeArrow() {    
   if (form2.classList.contains('collapsed')) {
     arrowUp.classList.add('collapsed')
