@@ -1,9 +1,13 @@
+.share-container {
+  border: none;
+  border-bottom: 1px solid #54585ac8;
+  border-top: 1px solid #54585ac8;
+  margin: 0 10px 0 10px;
+}
 .form--heading {
   display: flex;
   justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding: 30px 50px 30px 50px;
+  padding: 30px 10px 30px 10px;
 }
 .form--heading__left {
   display: flex;
@@ -82,7 +86,7 @@
   margin: auto;
   margin-bottom: 10px;
 }
-.fa-brands {
+.fa-twitter {
   color: $white;
 }
 .text-twitter {
