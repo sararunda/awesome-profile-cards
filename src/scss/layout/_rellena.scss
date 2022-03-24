@@ -1,10 +1,39 @@
 $font-14: 14px;
+$gunmetal: #54585a;
+
+.filled {
+  margin: 0px 20px;
+  display: flex;
+  font-family: $open;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: $gunmetal;
+
+  &__text {
+    width: 98%;
+    margin: 7px 10px 28px 0;
+  }
+}
+
+.fa-keyboard {
+  color: $orange;
+  width: 24px;
+  height: 18px;
+  font-size: 18px;
+  margin: 10px 10px 28px 0;
+}
+
+.fa-angle-up {
+  margin: 10px 10px 28px 0;
+}
 
 .form2 {
   font-family: $open;
-  padding: 5% 5%;
+  margin: 0px 20px;
   display: flex;
   flex-direction: column;
+  border: 0;
 }
 
 .input {
@@ -12,9 +41,14 @@ $font-14: 14px;
   font-family: $open;
   margin-top: 7px;
   color: #c5c5c5;
-  border: solid 2px $hospital-green;
+  border: solid 1px $hospital-green;
   outline-color: $orange;
   padding-left: 9px;
+}
+
+.label1 {
+  font-size: $font-14;
+  color: $dark-blue;
 }
 
 .label {
@@ -23,14 +57,30 @@ $font-14: 14px;
   margin-top: 20px;
 }
 
-.form2-button {
+.form2-submit {
   width: 140px;
   height: 30px;
-  margin-top: 10px;
   background-color: $orange;
+  color: white;
+  font-size: 14px;
   border-style: none;
+  border-radius: 3px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
 }
-.button-text {
-  color: $white;
-  font-size: $font-14;
+
+.container {
+  display: flex;
+  height: 30px;
+  margin-top: 7px;
+}
+
+.div {
+  width: 30px;
+  height: 30px;
+  border: $hospital-green 1px solid;
+  margin-left: 20px;
+}
+
+.collapsed {
+  display: none;
 }

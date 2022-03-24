@@ -1,5 +1,18 @@
-<fieldset class="form2">
-  <label class="label">Nombre completo</label>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<div class="filled js-desplegable">
+   <i class="fa-solid fa-keyboard"></i>
+   <legend class="filled__text">Rellena</legend>
+   <i class="fa-solid fa-angle-up  "></i>
+   <i class="fa-solid collapsed fa-angle-down "></i>
+  </div>
+
+<fieldset action="/signup" method="post"  class="form2 js-fieldset collapsed" >
+
+
+
+  <label class="label1">Nombre completo</label>
   <input
     type="text"
     class="input"
@@ -15,31 +28,51 @@
     value="Ej: Front-end unicorn"
     required
   />
-  <label class="label">Imagen de perfil</label>
-  <button class="form2-button"><p class="button-text">Añadir imagen</p></button>
 
-  <label class="label">Email</label>
-  <input
-    type="email"
-    class="input"
-    name="email"
-    value="Ej: sally.hill@gmail.com"
-    required
-  />
-  <label class="label">Linkedin</label>
-  <input
-    type="text"
-    class="input"
-    name="linkedin"
-    value="Ej: linkedin.com/in/sally-hill"
-    required
-  />
-  <label class="label">Github</label>
-  <input
-    type="text"
-    class="input"
-    name="github"
-    value="Ej: @sally-hill"
-    required
-  />
+  <label class="label">Imagen de perfil</label>
+  
+ 
+
+  <div class="container">
+  <input type="submit" class="form2-submit" value="Añadir imagen"/>
+  <div class="div"></div>
+   </div>
+
+    <label class="label">Email</label>
+    <input
+      type="email"
+      class="input"
+      name="email"
+      value="Ej: sally.hill@gmail.com"
+      required
+    />
+
+    <label class="label">Teléfono</label>
+    <input
+      type="tel"
+      class="input"
+      name="email"
+      value="Ej: 555-55-55-55"
+      required
+    />
+    <label class="label">Linkedin</label>
+    <input
+      type="text"
+      class="input"
+      name="linkedin"
+      value="Ej: linkedin.com/in/sally-hill"
+      required
+    />
+    <label class="label">Github</label>
+    <input
+      type="text"
+      class="input"
+      name="github"
+      value="Ej: @sally-hill"
+      required
+    />
+  </p>
 </fieldset>
+
+<script src="./assets/js/_rellena.js" ></script>
+
