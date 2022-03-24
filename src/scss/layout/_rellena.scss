@@ -12,7 +12,7 @@ $gunmetal: #54585a;
 
   &__text {
     width: 98%;
-    margin: 7px 10px 28px 0;
+    margin: 20px 10px 20px 0;
   }
 }
 
@@ -21,11 +21,11 @@ $gunmetal: #54585a;
   width: 24px;
   height: 18px;
   font-size: 18px;
-  margin: 10px 10px 28px 0;
+  margin: 23px 10px 20px 0;
 }
 
 .fa-angle-up {
-  margin: 10px 10px 28px 0;
+  margin: 20px 10px 20px 0;
 }
 
 .form2 {
@@ -84,4 +84,8 @@ $gunmetal: #54585a;
 
 .collapsed {
   display: none;
+}
+.line {
+  border-bottom: solid 1px $white-two;
+  margin: 0 10px;
 }
