@@ -1,7 +1,7 @@
 .design {
-    position: relative;
-    height: 225px;
-    padding: 0 5%;
+  position: relative;
+  height: 225px;
+  padding: 0 5%;
   font-family: $open;
   margin: 10px;
   border: none;
@@ -11,12 +11,12 @@
   &__legend {
     margin-bottom: 22px;
     &--icon {
-        color: $orange;
+      color: $orange;
     }
     &--arrow {
-        position: absolute;
-        right: 5%;
-        font-size: 20px;
+      position: absolute;
+      right: 5%;
+      font-size: 20px;
     }
   }
   &__title {
@@ -24,9 +24,9 @@
     font-size: 18px;
     font-weight: 600;
   }
-    &__inputname {
-      font-size: 14px;
-      margin-left: 5%;
+  &__inputname {
+    font-size: 14px;
+    margin-left: 5%;
   }
   &__options {
     position: absolute;
@@ -47,13 +47,13 @@
 }
 
 .option {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    &__input {
-        width: 17px;
-        height: 17px;
-    }
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  &__input {
+    width: 17px;
+    height: 17px;
+  }
 }
 
 .option1 {
@@ -69,25 +69,25 @@
 }
 
 .option2 {
-    &__color1 {
-      background-color: #420101;
-    }
-    &__color2 {
-      background-color: #bd1010;
-    }
-    &__color3 {
-      background-color: #e95626;
-    }
+  &__color1 {
+    background-color: #420101;
   }
+  &__color2 {
+    background-color: #bd1010;
+  }
+  &__color3 {
+    background-color: #e95626;
+  }
+}
 
-  .option3 {
-    &__color1 {
-      background-color: #3e5b65;
-    }
-    &__color2 {
-      background-color: #eab052;
-    }
-    &__color3 {
-      background-color: #a0c0cf;
-    }
+.option3 {
+  &__color1 {
+    background-color: #3e5b65;
   }
+  &__color2 {
+    background-color: #eab052;
+  }
+  &__color3 {
+    background-color: #a0c0cf;
+  }
+}
