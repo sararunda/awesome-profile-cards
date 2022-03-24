@@ -6,15 +6,23 @@
   border: none;
   text-transform: uppercase;
   color: $gunmetal;
+
   &__legend {
     margin-bottom: 22px;
+    display: flex;
+    justify-content: space-between;
+    &--topLegend {
+      display: flex;
+    }
     &--icon {
       color: $orange;
+      margin-right: 5px;
     }
     &--arrow {
       position: absolute;
-      right: 5%;
+      right: 0;
       font-size: 20px;
+      top: 0;
     }
   }
   &__title {
