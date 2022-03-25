@@ -11,15 +11,22 @@ const arrowDown = document.querySelector('.fa-angle-down');
 function hiddeFieldset() { 
   if (form2.classList.contains('collapsed')) {
     form2.classList.remove('collapsed')
+    
+    
   } else {
     form2.classList.add('collapsed')
   } }
 
+  fill.addEventListener('click', hiddeFieldset) 
 
+
+
+
+/*
 function changeArrow() {    
   if (form2.classList.contains('collapsed')) {
     arrowUp.classList.add('collapsed')
 }}
 
 fill.addEventListener('click', hiddeFieldset) ;
-fill.addEventListener('click', changeArrow) 
+fill.addEventListener('click', changeArrow) */
