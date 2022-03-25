@@ -28,6 +28,13 @@ $gunmetal: #54585a;
   margin: 20px 10px 20px 0;
 }
 
+.fa-transform {
+  transform: rotate(180deg);
+}
+
+.fa-transform-up {
+}
+
 .form2 {
   font-family: $open;
   margin: 0px 20px;
@@ -88,8 +95,4 @@ $gunmetal: #54585a;
 .line {
   border-bottom: solid 1px $white-two;
   margin: 0 10px;
-}
-
-.fa-transform {
-  transform: rotate(180deg);
 }
