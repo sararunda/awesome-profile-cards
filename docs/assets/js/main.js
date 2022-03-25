@@ -1,1 +1,1 @@
-"use strict";console.log(">> Ready :)");
+"use strict";const fill=document.querySelector(".js-desplegable"),form2=document.querySelector(".js-fieldset"),arrowUp=document.querySelector(".js-icon-rellena");function hiddeFieldset(e){e.preventDefault(),form2.classList.contains("collapsed")&&arrowUp.classList.contains("fa-transform")?(form2.classList.remove("collapsed"),arrowUp.classList.remove("fa-transform")):(form2.classList.add("collapsed"),arrowUp.classList.add("fa-transform"))}fill.addEventListener("click",hiddeFieldset);
