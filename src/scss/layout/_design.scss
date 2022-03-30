@@ -1,6 +1,6 @@
 .design {
-  height: 225px;
-  margin: 30px 20px;
+  position: relative;
+  margin: 35px 20px 0 20px;
   font-family: $open;
   border: none;
   text-transform: uppercase;
@@ -9,7 +9,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 22px;
     &--icon {
       color: $orange;
       margin-right: 12px;
@@ -96,4 +95,8 @@
 .box1 {
   display: flex;
   justify-content: space-between;
+}
+
+.arrowDown {
+  transform: rotate(180deg) translateY(20px);
 }
