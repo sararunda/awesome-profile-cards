@@ -12,14 +12,14 @@ function hiddeFieldset(event) {
   if (form2.classList.contains('collapsed') && arrowUp.classList.contains('fa-transform')) {
 
     form2.classList.remove('collapsed');
-    arrowUp.classList.remove('fa-transform')
+    arrowUp.classList.remove('fa-transform');
     
     
   } else {
     form2.classList.add('collapsed');
     arrowUp.classList.add('fa-transform');
     
-  } }
+  }}
 
   fill.addEventListener('click', hiddeFieldset) ;
 
