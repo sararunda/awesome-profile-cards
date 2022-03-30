@@ -1,5 +1,6 @@
 .main {
   @media all and (min-width: 768px) {
+    height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
