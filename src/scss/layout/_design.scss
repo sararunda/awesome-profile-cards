@@ -70,25 +70,25 @@
 
 .option2 {
   &__color1 {
-    background-color: #420101;
+    background-color: $blood;
   }
   &__color2 {
-    background-color: #bd1010;
+    background-color: $rusty-red;
   }
   &__color3 {
-    background-color: #e95626;
+    background-color: $tomato;
   }
 }
 
 .option3 {
   &__color1 {
-    background-color: #3e5b65;
+    background-color: $slate;
   }
   &__color2 {
-    background-color: #eab052;
+    background-color: $faded-orange;
   }
   &__color3 {
-    background-color: #a0c0cf;
+    background-color: $light-grey-blue;
   }
 }
 

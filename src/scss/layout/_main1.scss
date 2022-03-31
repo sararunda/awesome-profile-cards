@@ -44,7 +44,7 @@
       &--profession {
         font-family: $montse;
         color: $gunmetal;
-        font-weight: 400;
+        font-weight: 500;
       }
     }
     &__cat {
@@ -77,4 +77,45 @@
   border-left: 5px solid $blue;
   width: 100%;
   padding-left: 20px;
+}
+
+// palettes 
+
+.palette-1 {
+  .border {
+    border-color: $blue;
+  }
+  .main1__container__text--name {
+    color: $dark-blue;
+  }
+  .main1__container__rrss__link {
+    color: $dark-blue;
+    border-color: $hospital-green;
+  }
+}
+
+.palette-2 {
+  .border {
+    border-color: $rusty-red;
+  }
+  .main1__container__text--name {
+    color: $blood;
+  }
+  .main1__container__rrss__link {
+    color: $blood;
+    border-color: $tomato;
+  }
+}
+
+.palette-3 {
+  .border {
+    border-color: $faded-orange;
+  }
+  .main1__container__text--name {
+    color: $slate;
+  }
+  .main1__container__rrss__link {
+    color: $slate;
+    border-color: $light-grey-blue;
+  }
 }
