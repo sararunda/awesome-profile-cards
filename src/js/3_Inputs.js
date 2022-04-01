@@ -2,6 +2,13 @@
 const fillForm = document.querySelector('.js-fieldset');
 const previewName = document.querySelector('.js-preview-name');
 const previewJob = document.querySelector('.js-preview-job');
+const previewPhone = document.querySelector('.js-preview-phone');
+const previewEmail = document.querySelector('.js-preview-email');
+const previewLinkedin = document.querySelector('.js-preview-linkedin');
+const previewGithub = document.querySelector('.js-preview-github');
+//const  = document.querySelector('.j');
+
+
 
 const data = {
   palette: 1,
@@ -15,6 +22,7 @@ const data = {
 };
 
 function handleKeyupInputs(event) {
+  event.preventDefault();
   const typeElement = event.target;
 
   if (typeElement.name === 'name') {
@@ -39,6 +47,10 @@ function handleKeyupInputs(event) {
 function renderPreview() {
   previewName.innerHTML = data.name;
   previewJob.innerHTML = data.job;
+  previewPhone.href=data.phone;
+  previewEmail.href=`mailto:${data.email}`;
+  previewLinkedin.href=data.linkedin;
+  previewGithub.href=data.github;
 }
 
 fillForm.addEventListener('keyup', handleKeyupInputs);
