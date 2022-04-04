@@ -45,10 +45,14 @@ $gunmetal: #54585a;
   height: 30px;
   font-family: $open;
   margin-top: 7px;
-  color: #c5c5c5;
+  color: $gunmetal;
   border: solid 1px $hospital-green;
   outline-color: $orange;
   padding-left: 9px;
+}
+
+.input::placeholder {
+  color: #c5c5c5;
 }
 
 .label1 {

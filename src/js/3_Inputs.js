@@ -45,8 +45,16 @@ function handleKeyupInputs(event) {
 }
 
 function renderPreview() {
-  previewName.innerHTML = data.name;
-  previewJob.innerHTML = data.job;
+  if (data.name === '') {
+    previewName.innerHTML = 'Nombre Apellido';
+  } else {
+    previewName.innerHTML = data.name;
+  }
+  if (data.job === '') {
+    previewJob.innerHTML = 'Front-end developer';
+  } else {
+    previewJob.innerHTML = data.job;
+  }
   previewPhone.href=data.phone;
   previewEmail.href=`mailto:${data.email}`;
   previewLinkedin.href=data.linkedin;

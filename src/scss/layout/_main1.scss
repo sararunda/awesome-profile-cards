@@ -33,18 +33,19 @@
     }
     &__text {
       background-color: $white;
-      padding: 20px 0 10px 0;
-
+      padding: 20px 10px 10px 0;
       &--name {
         font-family: $montse;
         font-weight: bold;
         font-size: 18px;
         color: $dark-blue;
+        max-width: 220px;
       }
       &--profession {
         font-family: $montse;
         color: $gunmetal;
         font-weight: 500;
+        max-width: 220px;
       }
     }
     &__cat {
