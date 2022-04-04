@@ -75,6 +75,14 @@ $gunmetal: #54585a;
   border-style: none;
   border-radius: 3px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3px;
+}
+
+.input-file {
+  display: none;
 }
 
 .container {
@@ -88,6 +96,8 @@ $gunmetal: #54585a;
   height: 30px;
   border: $hospital-green 1px solid;
   margin-left: 20px;
+  background-size: cover;
+  background-position: center;
 }
 
 .collapsed {

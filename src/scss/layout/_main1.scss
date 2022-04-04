@@ -52,8 +52,9 @@
       height: 240px;
       width: 240px;
       background-image: url(../images/gatito.jpg);
-      background-size: contain;
+      background-size: cover;
       background-repeat: no-repeat;
+      background-position: center;
     }
     &__rrss {
       background-color: $white;
