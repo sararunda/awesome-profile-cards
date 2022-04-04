@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
@@ -24,7 +24,7 @@
     </header>
 
     <main class="main">
-      <section class="main1">
+      <section class="main1 js-preview-container">
         <div class="main1__container">
           <div>
             <button class="main1__container__reset">
@@ -33,26 +33,30 @@
 
             <div class="main1__container__text">
               <div class="border">
-                <p class="main1__container__text--name">Nombre Apellido</p>
-                <p class="main1__container__text--profession">Front-end developer</p>
+                <p class="main1__container__text--name js-preview-name">
+                  Nombre Apellido
+                </p>
+                <p class="main1__container__text--profession js-preview-job">
+                  Front-end developer
+                </p>
               </div>
             </div>
 
-            <div class="main1__container__cat"></div>
+            <div class="main1__container__cat js__profile-image"></div>
 
             <nav class="main1__container__rrss">
-              <a href=""
+              <a class="js-preview-phone" href=""
                 ><i
                   class="main1__container__rrss__link fa-solid fa-mobile-screen-button"
                 ></i
               ></a>
-              <a href=""
+              <a class="js-preview-email" href=""
                 ><i class="main1__container__rrss__link fa-solid fa-envelope"></i
               ></a>
-              <a href=""
+              <a class="js-preview-linkedin" href=""
                 ><i class="main1__container__rrss__link fa-brands fa-linkedin-in"></i
               ></a>
-              <a href=""
+              <a class="js-preview-github" href=""
                 ><i class="main1__container__rrss__link fa-brands fa-github-alt"></i
               ></a>
             </nav>
@@ -75,7 +79,7 @@
               <div class="design__options">
                 <div class="option">
                   <input
-                    class="option__input"
+                    class="option__input js-input-1"
                     id="design-option1"
                     type="radio"
                     value="option1"
@@ -89,7 +93,7 @@
                 </div>
                 <div class="option">
                   <input
-                    class="option__input"
+                    class="option__input js-input-2"
                     id="design-option2"
                     type="radio"
                     value="option2"
@@ -103,7 +107,7 @@
                 </div>
                 <div class="option">
                   <input
-                    class="option__input"
+                    class="option__input js-input-3"
                     id="design-option3"
                     type="radio"
                     value="option3"
@@ -139,15 +143,15 @@
             type="text"
             class="input"
             name="name"
-            value="Ej: Sally Hill"
+            placeholder="Ej: Sally Hill"
             required
           />
           <label class="label">Puesto</label>
           <input
             type="text"
             class="input"
-            name="puesto"
-            value="Ej: Front-end unicorn"
+            name="job"
+            placeholder="Ej: Front-end unicorn"
             required
           />
 
@@ -156,8 +160,9 @@
          
 
           <div class="container">
-          <input type="submit" class="form2-submit" value="Añadir imagen"/>
-          <div class="div"></div>
+          <label class="form2-submit js__profile-trigger" for="user-photo">Añadir imagen</label>
+          <input type="file" class="input-file js__profile-upload-btn" id="user-photo"/>
+          <span class="div 	js__profile-preview"></span>
            </div>
 
             <label class="label">Email</label>
@@ -165,7 +170,7 @@
               type="email"
               class="input"
               name="email"
-              value="Ej: sally.hill@gmail.com"
+              placeholder="Ej: sally.hill@gmail.com"
               required
             />
 
@@ -173,8 +178,8 @@
             <input
               type="tel"
               class="input"
-              name="email"
-              value="Ej: 555-55-55-55"
+              name="phone"
+              placeholder="Ej: 555-55-55-55"
               required
             />
             <label class="label">Linkedin</label>
@@ -182,7 +187,7 @@
               type="text"
               class="input"
               name="linkedin"
-              value="Ej: linkedin.com/in/sally-hill"
+              placeholder="Ej: linkedin.com/in/sally-hill"
               required
             />
             <label class="label">Github</label>
@@ -190,7 +195,7 @@
               type="text"
               class="input"
               name="github"
-              value="Ej: @sally-hill"
+              placeholder="Ej: @sally-hill"
               required
             />
           </p>
