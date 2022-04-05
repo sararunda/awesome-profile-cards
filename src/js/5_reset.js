@@ -4,8 +4,8 @@ let resetInput=document.querySelectorAll('.js_resetInput');
 
 
 function handleClickReset(event){
- event.preventDefault();
- resetInput.value= '';
+    event.preventDefault();
+    resetInput.value= '';
 }
 
 buttonReset.addEventListener('click', handleClickReset);
