@@ -8,9 +8,6 @@ function resetCard() {
  previewJob.innerHTML = 'Front-end developer';
 };
 
-
-
-
 function handleClickReset(event){
  event.preventDefault();
  console.log('holii');
@@ -21,8 +18,5 @@ function handleClickReset(event){
 resetCard();
 
 };
-
-
-
 
 buttonReset.addEventListener('click', handleClickReset);

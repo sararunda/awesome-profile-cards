@@ -6,9 +6,7 @@ const previewPhone = document.querySelector('.js-preview-phone');
 const previewEmail = document.querySelector('.js-preview-email');
 const previewLinkedin = document.querySelector('.js-preview-linkedin');
 const previewGithub = document.querySelector('.js-preview-github');
-//const  = document.querySelector('.j');
-
-
+//const previewPhoto = document.querySelector('.j');
 
 const data = {
   palette: 1,
@@ -55,10 +53,11 @@ function renderPreview() {
   } else {
     previewJob.innerHTML = data.job;
   }
-  previewPhone.href=data.phone;
-  previewEmail.href=`mailto:${data.email}`;
-  previewLinkedin.href=data.linkedin;
-  previewGithub.href=data.github;
+  previewPhone.href = data.phone;
+  previewEmail.href = `mailto:${data.email}`;
+  previewLinkedin.href = data.linkedin;
+  previewGithub.href = data.github;
+  //profileImage.src = `url(${data.photo})`;
 }
 
 fillForm.addEventListener('keyup', handleKeyupInputs);
