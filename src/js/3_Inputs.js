@@ -1,23 +1,5 @@
 'use strict';
-const fillForm = document.querySelector('.js-fieldset');
-const previewName = document.querySelector('.js-preview-name');
-const previewJob = document.querySelector('.js-preview-job');
-const previewPhone = document.querySelector('.js-preview-phone');
-const previewEmail = document.querySelector('.js-preview-email');
-const previewLinkedin = document.querySelector('.js-preview-linkedin');
-const previewGithub = document.querySelector('.js-preview-github');
-//const previewPhoto = document.querySelector('.j');
 
-const data = {
-  palette: 1,
-  name: '',
-  job: '',
-  email: '',
-  phone: '',
-  linkedin: '',
-  github: '',
-  photo: '',
-};
 
 function handleKeyupInputs(event) {
   event.preventDefault();

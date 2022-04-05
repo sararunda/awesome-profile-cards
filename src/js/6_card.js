@@ -1,6 +1,9 @@
 'use strict';
 
-const btn = document.querySelector('.js_bntCreate');
+function changeColorButton(event) {
+  btn.classList.add('js-greyButton');
+  shareCardSection.classList.remove('js-createHidden');
+}
 
 function handlebntCreate(event) {
   event.preventDefault();
@@ -15,6 +18,7 @@ function handlebntCreate(event) {
     .then((cardData) => {
       console.log(cardData);
     });
+  changeColorButton();
 }
 
 btn.addEventListener('click', handlebntCreate);

@@ -1,9 +1,6 @@
 'use strict';
 
-const previewContainer = document.querySelector('.js-preview-container');
-const radioButton1 = document.querySelector('.js-input-1');
-const radioButton2 = document.querySelector('.js-input-2');
-const radioButton3 = document.querySelector('.js-input-3');
+
 
 function handleClick1() {
   previewContainer.classList.remove('palette-2');
