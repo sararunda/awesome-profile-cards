@@ -37,4 +37,3 @@ shareLegend.addEventListener('click', (event) => {
   share.classList.toggle('collapsed');
   shareArrow.classList.toggle('arrowDown');
 });
-
