@@ -1,10 +1,10 @@
 'use strict';
-const buttonReset = document.querySelector('.js_buttonReset');
-let resetInput = document.querySelectorAll('.js_resetInput');
 
 function resetCard() {
   previewName.innerHTML = 'Nombre Apellido';
   previewJob.innerHTML = 'Front-end developer';
+  btn.classList.remove('js-greyButton');
+  shareCardSection.classList.add('js-createHidden');
 }
 
 function handleClickReset(event) {

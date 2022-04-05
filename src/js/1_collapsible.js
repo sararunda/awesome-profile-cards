@@ -1,15 +1,5 @@
 'use strict';
 
-const designLegend = document.querySelector('.js-designLegend');
-const design = document.querySelector('.js-design');
-const designArrow = document.querySelector('.js-designArrow');
-const fill = document.querySelector('.js-desplegable');
-const form2 = document.querySelector('.js-fieldset');
-const arrowUp = document.querySelector('.js-icon-rellena');
-const shareLegend = document.querySelector('.js-title_share');
-const share = document.querySelector('.js-share');
-const shareArrow = document.querySelector('.js-shareArrow');
-
 function hiddeFieldset(event) {
   event.preventDefault();
   if (
