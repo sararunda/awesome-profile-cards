@@ -5,6 +5,8 @@ function resetCard() {
   previewJob.innerHTML = 'Front-end developer';
   btn.classList.remove('js-greyButton');
   shareCardSection.classList.add('js-createHidden');
+  resetImage.style.backgroundImage = '';
+  resetPreviewImg.style.backgroundImage = '';
 }
 
 function handleClickReset(event) {
