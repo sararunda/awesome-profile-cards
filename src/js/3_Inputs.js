@@ -39,7 +39,6 @@ function renderPreview() {
   previewEmail.href = `mailto:${data.email}`;
   previewLinkedin.href = data.linkedin;
   previewGithub.href = data.github;
-  //profileImage.src = `url(${data.photo})`;
 }
 
 fillForm.addEventListener('keyup', handleKeyupInputs);

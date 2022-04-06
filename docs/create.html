@@ -27,7 +27,7 @@
       <section class="main1 js-preview-container">
         <div class="main1__container">
           <div>
-            <button class="main1__container__reset">
+            <button class="main1__container__reset js_buttonReset">
               <i class="fa-solid fa-trash-can"></i>reset
             </button>
 
@@ -42,28 +42,18 @@
               </div>
             </div>
 
-            <div class="main1__container__cat js__profile-image"></div>
+            <div class="main1__container__cat js__profile-image js_reset_image"></div>
 
             <nav class="main1__container__rrss">
-              <a class="js-preview-phone" href=""
-                ><i
-                  class="main1__container__rrss__link fa-solid fa-mobile-screen-button"
-                ></i
-              ></a>
-              <a class="js-preview-email" href=""
-                ><i class="main1__container__rrss__link fa-solid fa-envelope"></i
-              ></a>
-              <a class="js-preview-linkedin" href=""
-                ><i class="main1__container__rrss__link fa-brands fa-linkedin-in"></i
-              ></a>
-              <a class="js-preview-github" href=""
-                ><i class="main1__container__rrss__link fa-brands fa-github-alt"></i
-              ></a>
+              <a class="js-preview-phone" href=""><i
+                  class="main1__container__rrss__link fa-solid fa-mobile-screen-button"></i></a>
+              <a class="js-preview-email" href=""><i class="main1__container__rrss__link fa-solid fa-envelope"></i></a>
+              <a class="js-preview-linkedin" href=""><i class="main1__container__rrss__link fa-brands fa-linkedin-in"></i></a>
+              <a class="js-preview-github" href=""><i class="main1__container__rrss__link fa-brands fa-github-alt"></i></a>
             </nav>
           </div>
         </div>
       </section>
-
       <form action="/signup" method="post" class="main2">
         <fieldset class="design">
           <legend class="design__legend js-designLegend">
@@ -71,19 +61,20 @@
               <i class="fa-solid fa-object-ungroup design__legend--icon"></i>
               <h2 class="design__title">Diseña</h2>
             </div>
-            <i class="fa-solid fa-angle-up design__legend--arrow js-designArrow"></i>
+            <i class="fa-solid fa-angle-up design__legend--arrow js-designArrow fa-transform"></i>
           </legend>
-          <div class="js-design">
+          <div class="js-design collapsed">
             <div class="box1">
               <h3 class="design__inputname">Colores</h3>
               <div class="design__options">
                 <div class="option">
                   <input
-                    class="option__input js-input-1"
+                    class="option__input js-input-1 js-option-input"
                     id="design-option1"
                     type="radio"
                     value="option1"
                     name="design-options"
+                    checked="checked" 
                   />
                   <label class="design__options--box" for="option1">
                     <div class="option1__color1"></div>
@@ -93,7 +84,7 @@
                 </div>
                 <div class="option">
                   <input
-                    class="option__input js-input-2"
+                    class="option__input js-input-2 js-option-input"
                     id="design-option2"
                     type="radio"
                     value="option2"
@@ -107,7 +98,7 @@
                 </div>
                 <div class="option">
                   <input
-                    class="option__input js-input-3"
+                    class="option__input js-input-3 js-option-input"
                     id="design-option3"
                     type="radio"
                     value="option3"
@@ -128,110 +119,70 @@
 
 
         <div class="filled js-desplegable">
-           <i class="fa-solid fa-keyboard"></i>
-           <legend class="filled__text">Rellena</legend>
-           <i class="fa-solid fa-angle-up js-icon-rellena  "></i>
+          <i class="fa-solid fa-keyboard"></i>
+          <legend class="filled__text">Rellena</legend>
+          <i class="fa-solid fa-angle-up fill-arrow js-icon-rellena fa-transform "></i>
 
-          </div>
+        </div>
 
-        <fieldset action="/signup" method="post"  class="form2 js-fieldset" >
+        <fieldset action="/signup" method="post" class="form2 js-fieldset collapsed">
 
 
 
           <label class="label1">Nombre completo</label>
-          <input
-            type="text"
-            class="input"
-            name="name"
-            placeholder="Ej: Sally Hill"
-            required
-          />
+          <input type="text" class="input js_resetInput" name="name" placeholder="Ej: Sally Hill" required />
           <label class="label">Puesto</label>
-          <input
-            type="text"
-            class="input"
-            name="job"
-            placeholder="Ej: Front-end unicorn"
-            required
-          />
+          <input type="text" class="input js_resetInput" name="job" placeholder="Ej: Front-end unicorn" required />
 
           <label class="label">Imagen de perfil</label>
-          
-         
+
+
 
           <div class="container">
-          <label class="form2-submit js__profile-trigger" for="user-photo">Añadir imagen</label>
-          <input type="file" class="input-file js__profile-upload-btn" id="user-photo"/>
-          <span class="div 	js__profile-preview"></span>
-           </div>
+            <label class="form2-submit js__profile-trigger" for="user-photo">Añadir imagen</label>
+            <input type="file" class="input-file js__profile-upload-btn" id="user-photo" />
+            <span class="div 	js__profile-preview js_reset_previewimg"></span>
+          </div>
 
-            <label class="label">Email</label>
-            <input
-              type="email"
-              class="input"
-              name="email"
-              placeholder="Ej: sally.hill@gmail.com"
-              required
-            />
+          <label class="label">Email</label>
+          <input type="email" class="input js_resetInput" name="email" placeholder="Ej: sally.hill@gmail.com" required />
 
-            <label class="label">Teléfono</label>
-            <input
-              type="tel"
-              class="input"
-              name="phone"
-              placeholder="Ej: 555-55-55-55"
-              required
-            />
-            <label class="label">Linkedin</label>
-            <input
-              type="text"
-              class="input"
-              name="linkedin"
-              placeholder="Ej: linkedin.com/in/sally-hill"
-              required
-            />
-            <label class="label">Github</label>
-            <input
-              type="text"
-              class="input"
-              name="github"
-              placeholder="Ej: @sally-hill"
-              required
-            />
+          <label class="label">Teléfono</label>
+          <input type="tel" class="input js_resetInput" name="phone" placeholder="Ej: 555-55-55-55" required />
+          <label class="label">Linkedin</label>
+          <input type="text" class="input js_resetInput" name="linkedin" placeholder="Ej: linkedin.com/in/sally-hill"
+            required />
+          <label class="label">Github</label>
+          <input type="text" class="input js_resetInput" name="github" placeholder="Ej: @sally-hill" required />
           </p>
-          
+
         </fieldset>
         <div class="line"></div>
-
-
-
         <fieldset action="/signup" method="post" class="share-container">
           <label class="form--heading js-title_share">
             <div class="form--heading__left">
               <i class="fa-solid fa-share-nodes"></i>
               <h2 class="share--text">COMPARTE</h2>
             </div>
-            <i class="fa-solid fa-angle-up js-shareArrow"></i>
+            <i class="fa-solid fa-angle-up fill-arrow js-shareArrow fa-transform"></i>
           </label>
-          <div class="form3 js-share">
+          <div class="form3 js-share collapsed">
             <div class="form3--section-1">
-              <button class="form3--section-1__button">
+              <button class="form3--section-1__button js_bntCreate">
                 <i class="fa-regular fa-address-card"></i>
                 <p class="button-create">CREAR TARJETA</p>
               </button>
             </div>
 
-            <div class="form3--section-2">
+            <div class="form3--section-2 js-createHidden js-shareCard">
               <div class="form3--section-2__text">
                 <h1 class="text-share">La tarjeta ha sido creada</h1>
-                <span class="url-share">
-                  https://awesome-profile-card.com?id=A456DF0001
-                </span>
+                <a class="url-share js_shareUrl" href="" target="_blank"></a>
               </div>
 
               <button class="form3--section-2__button">
                 <i class="fa-brands fa-twitter"></i>
-                <p class="text-twitter">Compartir en Twitter</p>
+                <a href="" class="text-twitter js_shareTwitter" target="_blank">Compartir en Twitter</a>
               </button>
             </div>
           </div>

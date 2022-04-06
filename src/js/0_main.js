@@ -22,7 +22,12 @@ const previewPhone = document.querySelector('.js-preview-phone');
 const previewEmail = document.querySelector('.js-preview-email');
 const previewLinkedin = document.querySelector('.js-preview-linkedin');
 const previewGithub = document.querySelector('.js-preview-github');
-//const previewPhoto = document.querySelector('.j');
+// Reset
+const resetImage = document.querySelector('.js_reset_image');
+const resetPreviewImg = document.querySelector('.js_reset_previewimg');
+// Share
+const generatedUrl = document.querySelector('.js_shareUrl');
+const shareOnTwitter = document.querySelector('.js_shareTwitter');
 
 const data = {
   palette: 1,
