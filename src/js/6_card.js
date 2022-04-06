@@ -17,6 +17,10 @@ function handlebntCreate(event) {
     .then((response) => response.json())
     .then((cardData) => {
       console.log(cardData);
+      const url = cardData.cardURL;
+      generatedUrl.innerHTML = url;
+      generatedUrl.href = url;
+      shareOnTwitter.href = `https://twitter.com/intent/tweet?text=${url}`;
     });
   changeColorButton();
 }
