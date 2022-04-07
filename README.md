@@ -55,7 +55,7 @@ Con este poyecto hemos reforzado conocimientos de maquetación y adquirido conoc
 - María https://www.linkedin.com/in/maria-ortiz-mero-a48871206
 - Tania https://www.linkedin.com/in/tania-fern%C3%A1ndez-de-soto-esteban-8b232a232/
 - Celia https://www.linkedin.com/in/celia-rosales-caballero-8073061ba/
-- Lucía https://twitter.com/ruadasLucia
+- Lucía https://www.linkedin.com/in/luc%C3%ADa-acu%C3%B1a-ruadas-9b3888143/
 
 **Agradecimientos:**
 Las unas a las otras por haber trabajado tan bien juntas. Nos hemos conocido, ayudado y comprendido entre nosotras, en nuestros mejores y peores momentos con JS :)
