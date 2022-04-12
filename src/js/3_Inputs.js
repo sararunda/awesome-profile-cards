@@ -1,6 +1,5 @@
 'use strict';
 
-
 function handleKeyupInputs(event) {
   event.preventDefault();
   const typeElement = event.target;

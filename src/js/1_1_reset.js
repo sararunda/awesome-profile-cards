@@ -7,6 +7,10 @@ function resetCard() {
   shareCardSection.classList.add('js-createHidden');
   resetImage.style.backgroundImage = '';
   resetPreviewImg.style.backgroundImage = '';
+  previewContainer.classList.add('palette-1');
+  previewContainer.classList.remove('palette-2');
+  previewContainer.classList.remove('palette-3');
+  radioButton1.checked = 'checked';
 }
 
 function handleClickReset(event) {
