@@ -35,6 +35,9 @@
     &__text {
       background-color: $white;
       padding: 20px 20px 10px 0;
+      min-width: 240px;
+      max-width: 30ch;
+      overflow-wrap: break-word;
       &--name {
         font-family: $montse;
         font-weight: bold;

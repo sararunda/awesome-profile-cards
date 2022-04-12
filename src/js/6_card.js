@@ -8,6 +8,7 @@ function changeColorButton(event) {
 function handlebntCreate(event) {
   event.preventDefault();
   if (
+    data.palette === '' ||
     data.name === '' ||
     data.job === '' ||
     data.email === '' ||

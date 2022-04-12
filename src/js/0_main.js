@@ -32,7 +32,7 @@ const savedData = JSON.parse(localStorage.getItem('savedData'));
 const messageCard = document.querySelector('.js-text-share');
 
 const data = {
-  palette: 1,
+  palette: '',
   name: '',
   job: '',
   email: '',

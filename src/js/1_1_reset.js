@@ -10,7 +10,9 @@ function resetCard() {
   previewContainer.classList.add('palette-1');
   previewContainer.classList.remove('palette-2');
   previewContainer.classList.remove('palette-3');
-  radioButton1.checked = 'checked';
+  radioButton1.checked = '';
+  radioButton2.checked = '';
+  radioButton3.checked = '';
 }
 
 function handleClickReset(event) {
