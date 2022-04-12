@@ -20,10 +20,11 @@ function handleKeyupInputs(event) {
     data.photo = typeElement.value;
   }
 
-  renderPreview();
+  renderPreview(data);
+  localStorage.setItem('savedData', JSON.stringify(data));
 }
 
-function renderPreview() {
+function renderPreview(data) {
   if (data.name === '') {
     previewName.innerHTML = 'Nombre Apellido';
   } else {
@@ -41,3 +42,12 @@ function renderPreview() {
 }
 
 fillForm.addEventListener('keyup', handleKeyupInputs);
+
+function renderOrNot() {
+  if (savedData !== null) {
+    renderPreview(savedData);
+    renderPalette(savedData);
+  }
+}
+
+renderOrNot();

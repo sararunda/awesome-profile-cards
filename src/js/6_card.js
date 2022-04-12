@@ -7,6 +7,9 @@ function changeColorButton(event) {
 
 function handlebntCreate(event) {
   event.preventDefault();
+  if (data.name === '' || data.job === '' || data.email === '' || data.phone === '' || data.linkedin === '' || data.github === '' || data.photo === '') {
+    messageCard.innerHTML = 'Debe rellenar todos los campos';
+  }
   fetch('https://awesome-profile-cards.herokuapp.com/card/', {
     method: 'POST',
     body: JSON.stringify(data),

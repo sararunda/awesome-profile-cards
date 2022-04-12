@@ -28,6 +28,8 @@ const resetPreviewImg = document.querySelector('.js_reset_previewimg');
 // Share
 const generatedUrl = document.querySelector('.js_shareUrl');
 const shareOnTwitter = document.querySelector('.js_shareTwitter');
+const savedData = JSON.parse(localStorage.getItem('savedData'));
+const messageCard = document.querySelector('.js-text-share');
 
 const data = {
   palette: 1,

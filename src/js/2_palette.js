@@ -24,15 +24,23 @@ radioButton3.addEventListener('click', handleClick3);
 
 function handleClicPalette(event) {
   data.palette = parseInt(event.currentTarget.id);
-
-  console.log(data.palette);
+  return data.palette;
 }
-
 function listenersPalettes() {
   //listener de las paletas
   const paletteInputs = document.querySelectorAll('.js-option-input');
   for (const item of paletteInputs) {
     item.addEventListener('click', handleClicPalette);
+  }
+}
+
+function renderPalette(data) {
+  if (data.palette === 1) {
+    handleClick1();
+  } else if (data.palette === 2) {
+    handleClick2();
+  } else if (data.palette === 3) {
+    handleClick3();
   }
 }
 

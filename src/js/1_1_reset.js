@@ -18,7 +18,7 @@ function handleClickReset(event) {
   for (const item of resetInput) {
     item.value = '';
   }
-
+  localStorage.removeItem('savedData');
   resetCard();
 }
 
