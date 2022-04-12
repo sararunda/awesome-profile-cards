@@ -45,15 +45,25 @@
             <div class="main1__container__cat js__profile-image js_reset_image"></div>
 
             <nav class="main1__container__rrss">
-              <a class="js-preview-phone" href=""><i
-                  class="main1__container__rrss__link fa-solid fa-mobile-screen-button"></i></a>
-              <a class="js-preview-email" href=""><i class="main1__container__rrss__link fa-solid fa-envelope"></i></a>
-              <a class="js-preview-linkedin" href=""><i class="main1__container__rrss__link fa-brands fa-linkedin-in"></i></a>
-              <a class="js-preview-github" href=""><i class="main1__container__rrss__link fa-brands fa-github-alt"></i></a>
+              <a class="js-preview-phone" href=""
+                ><i
+                  class="main1__container__rrss__link fa-solid fa-mobile-screen-button"
+                ></i
+              ></a>
+              <a class="js-preview-email" href=""
+                ><i class="main1__container__rrss__link fa-solid fa-envelope"></i
+              ></a>
+              <a class="js-preview-linkedin" href=""
+                ><i class="main1__container__rrss__link fa-brands fa-linkedin-in"></i
+              ></a>
+              <a class="js-preview-github" href=""
+                ><i class="main1__container__rrss__link fa-brands fa-github-alt"></i
+              ></a>
             </nav>
           </div>
         </div>
       </section>
+
       <form action="/signup" method="post" class="main2">
         <fieldset class="design">
           <legend class="design__legend js-designLegend">
@@ -61,7 +71,9 @@
               <i class="fa-solid fa-object-ungroup design__legend--icon"></i>
               <h2 class="design__title">Diseña</h2>
             </div>
-            <i class="fa-solid fa-angle-up design__legend--arrow js-designArrow fa-transform"></i>
+            <i
+              class="fa-solid fa-angle-up design__legend--arrow js-designArrow fa-transform"
+            ></i>
           </legend>
           <div class="js-design collapsed">
             <div class="box1">
@@ -70,11 +82,11 @@
                 <div class="option">
                   <input
                     class="option__input js-input-1 js-option-input"
-                    id="design-option1"
+                    id="1"
                     type="radio"
                     value="option1"
                     name="design-options"
-                    checked="checked" 
+                    checked="checked"
                   />
                   <label class="design__options--box" for="option1">
                     <div class="option1__color1"></div>
@@ -85,7 +97,7 @@
                 <div class="option">
                   <input
                     class="option__input js-input-2 js-option-input"
-                    id="design-option2"
+                    id="2"
                     type="radio"
                     value="option2"
                     name="design-options"
@@ -99,7 +111,7 @@
                 <div class="option">
                   <input
                     class="option__input js-input-3 js-option-input"
-                    id="design-option3"
+                    id="3"
                     type="radio"
                     value="option3"
                     name="design-options"
@@ -150,10 +162,10 @@
           <label class="label">Teléfono</label>
           <input type="tel" class="input js_resetInput" name="phone" placeholder="Ej: 555-55-55-55" required />
           <label class="label">Linkedin</label>
-          <input type="text" class="input js_resetInput" name="linkedin" placeholder="Ej: linkedin.com/in/sally-hill"
+          <input type="text" class="input js_resetInput" name="linkedin" placeholder="Ej: /sally-hill-9b3888143/"
             required />
           <label class="label">Github</label>
-          <input type="text" class="input js_resetInput" name="github" placeholder="Ej: @sally-hill" required />
+          <input type="text" class="input js_resetInput" name="github" placeholder="Ej: sally-hill" required />
           </p>
 
         </fieldset>
@@ -168,6 +180,7 @@
           </label>
           <div class="form3 js-share collapsed">
             <div class="form3--section-1">
+              <p class="text-share share-error js-text-share"></p>
               <button class="form3--section-1__button js_bntCreate">
                 <i class="fa-regular fa-address-card"></i>
                 <p class="button-create">CREAR TARJETA</p>
@@ -176,7 +189,7 @@
 
             <div class="form3--section-2 js-createHidden js-shareCard">
               <div class="form3--section-2__text">
-                <h1 class="text-share">La tarjeta ha sido creada</h1>
+                <p class="text-share">La tarjeta ha sido creada</p>
                 <a class="url-share js_shareUrl" href="" target="_blank"></a>
               </div>
 
