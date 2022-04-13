@@ -16,8 +16,6 @@ function handleKeyupInputs(event) {
     data.linkedin = typeElement.value;
   } else if (typeElement.name === 'github') {
     data.github = typeElement.value;
-  } else if (typeElement.name === 'photo') {
-    data.photo = typeElement.value;
   }
 
   renderPreview(data);
@@ -39,15 +37,16 @@ function renderPreview(data) {
   previewEmail.href = `mailto:${data.email}`;
   previewLinkedin.href = data.linkedin;
   previewGithub.href = data.github;
+
+  profileImage.style.backgroundImage = `url(${data.photo})`;
+  profilePreview.style.backgroundImage = `url(${data.photo})`;
 }
 
 fillForm.addEventListener('keyup', handleKeyupInputs);
 
 function renderOrNot() {
-  if (savedData !== null) {
-    renderPreview(savedData);
-    renderPalette(savedData);
-  }
+  renderPreview(data);
+  renderPalette(data);
 }
 
 renderOrNot();

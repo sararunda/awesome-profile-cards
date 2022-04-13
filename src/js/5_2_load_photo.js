@@ -1,9 +1,6 @@
 'use strict';
 
 const fr = new FileReader();
-const fileField = document.querySelector('.js__profile-upload-btn');
-const profileImage = document.querySelector('.js__profile-image');
-const profilePreview = document.querySelector('.js__profile-preview');
 
 /**
  * Recoge el archivo añadido al campo de tipo "file"
@@ -32,6 +29,7 @@ function writeImage() {
   profileImage.style.backgroundImage = `url(${fr.result})`;
   profilePreview.style.backgroundImage = `url(${fr.result})`;
   data.photo = fr.result;
+  localStorage.setItem('savedData', JSON.stringify(data));
 }
 
 /**

@@ -30,8 +30,12 @@ const generatedUrl = document.querySelector('.js_shareUrl');
 const shareOnTwitter = document.querySelector('.js_shareTwitter');
 const savedData = JSON.parse(localStorage.getItem('savedData'));
 const messageCard = document.querySelector('.js-text-share');
+//
+const fileField = document.querySelector('.js__profile-upload-btn');
+const profileImage = document.querySelector('.js__profile-image');
+const profilePreview = document.querySelector('.js__profile-preview');
 
-const data = {
+const data = savedData || {
   palette: '',
   name: '',
   job: '',
@@ -39,7 +43,7 @@ const data = {
   phone: '',
   linkedin: '',
   github: '',
-  photo: '',
+  photo: '../assets/images/gatito.jpg',
 };
 //5-6cards
 const btn = document.querySelector('.js_bntCreate');
