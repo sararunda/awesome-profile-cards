@@ -43,7 +43,7 @@ const data = savedData || {
   phone: '',
   linkedin: '',
   github: '',
-  photo: '../assets/images/gatito.jpg',
+  photo: './assets/images/gatito.jpg',
 };
 //5-6cards
 const btn = document.querySelector('.js_bntCreate');
