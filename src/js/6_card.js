@@ -32,7 +32,7 @@ function handlebntCreate(event) {
         const url = cardData.cardURL;
         generatedUrl.innerHTML = url;
         generatedUrl.href = url;
-        shareOnTwitter.href = `https://twitter.com/intent/tweet?text=${url}`;
+        shareOnTwitter.href = `https://twitter.com/intent/tweet?text=¡Echa un ojo a mi tarjeta de contacto! ${url}`;
       });
     messageCard.innerHTML = '';
     changeColorButton();
