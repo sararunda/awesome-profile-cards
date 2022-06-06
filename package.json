@@ -1,7 +1,8 @@
 {
 	"name": "adalab-web-starter-kit",
 	"version": "3.0.1",
-	"description": "Adalab web starter kit",
+	"homepage": "./",
+	"description": "Awesome Profile Cards",
 	"dependencies": {
 		"browser-sync": "^2.26.12",
 		"del": "^5.1.0",
@@ -37,6 +38,6 @@
 		"url": "git+ssh://git@github.com:Adalab/adalab-web-starter-kit.git"
 	},
 	"author": "Adalab",
-	"license": "MIT",
-	"homepage": "https://github.com/adalab/adalab-web-starter-kit"
+	"license": "MIT"
+	
 }
