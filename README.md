@@ -14,16 +14,6 @@ Con este proyecto creamos un espacio interactivo que que nos permite crear tarje
 
 
 
-
-
-
-
-
-
-##### Puedes ver el proyecto entero en: https://beta.adalab.es/project-promo-p-module-2-team-7/
-##### Este es el enlace al repositorio: https://github.com/Adalab/project-promo-p-module-2-team-7
-
-
 **Las herramientas y lenguajes usados para el proyecto han sido:**
 
 - VScode
